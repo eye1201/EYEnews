@@ -1,0 +1,125 @@
+header {
+	font-family:Comic Sans MS;
+	font-size:15px;
+}
+
+#logo {
+	height:105px; 
+	width:105px;
+}
+
+ul.navbar {
+	background-color: blue;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.navbar li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+ul.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+}
+
+ul.navbar li a:hover {
+	background-color: #00FFFF;
+}
+
+body {
+	background-image:url("../img/Solid Colors/Solid Mint.png");
+	background-position:center;
+	background-repeat:repeat;
+}
+
+#bienvenida {
+	height:720px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url("../img/market.png");
+	background-color: #E0FFFF;
+	background-attachment:scroll;
+}
+
+#texto {
+	text-align:center;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 100%,
+}
+
+#texto2 {
+	text-align:center;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 100%,
+}
+
+#button {
+	text-align:center;
+}
+
+#imgproducto {
+	height:200px; 
+	width:200px;
+}
+
+table, td, th #noticias {
+	font-family:Comic Sans MS;
+}
+
+tbody.noticias2 {
+	background-image:url("../img/Solid Colors/Solid Lavender.png");
+	background-attachment:scroll;
+}
+
+
+form {
+	background-image:url("../img/Solid Colors/Solid Gray Light.png");
+	background-attachment:scroll;
+}
+
+footer {
+	bottom:0%;
+	text-align:center;
+}
+
+div.mantenimiento {
+	margin: auto;
+	width: 50%;
+	text-align:center;
+	font-family:Comic Sans MS;
+	font-size:15;
+}
+
+iframe {
+	width:600px;
+	height:450px; 
+	border:0;
+}
+
+div #datos {
+	width:50%;
+	float:left
+}
+
+div #mapa {
+	width:50%;
+	float:right;
+}
+
+div #nuestrainfo {
+	width:100%;
+	height:100%;
+}

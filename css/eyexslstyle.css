@@ -1,0 +1,112 @@
+header {
+	font-family:Comic Sans MS;
+	font-size:15px;
+}
+
+#logo {
+	height:105px; 
+	width:105px;
+}
+
+ul.navbar {
+	background-color: blue;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.navbar li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+ul.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+}
+
+ul.navbar li a:hover {
+	background-color: #00FFFF;
+}
+
+body {
+	background-image:url("../img/Solid Colors/Solid Mint.png");
+	background-position:center;
+	background-repeat:repeat;
+}
+
+#bienvenida {
+	height:720px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url("../img/market.png");
+	background-color: #E0FFFF;
+	background-attachment:scroll;
+}
+
+#texto {
+	text-align:center;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 100%,
+}
+
+#texto2, .info {
+	text-align:center;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 100%,
+}
+
+div.info {
+	text-align:left;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 100%;
+}
+
+h2 {
+	text-align:center;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+}
+
+h3 {
+	text-align:left;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 98%;
+}
+
+tbody tr td img {
+	height:200px; 
+	width:200px;
+}
+
+table, td, th #noticias {
+	font-family:Comic Sans MS;
+}
+
+tbody.noticias2 {
+	background-image:url("../img/Solid Colors/Solid Lavender.png");
+	background-attachment:scroll;
+}
+
+footer {
+	bottom:0%;
+	text-align:center;
+}
