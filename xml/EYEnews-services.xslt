@@ -7,8 +7,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <head>
       <title>Noticias de última hora | EYEnews</title>
       <meta charset="UTF-8"/>
-      <link rel="icon" href="..\img\eyenewslogo.png"/>
-      <link rel="stylesheet" href="..\css\eyexslstyle.css" type="text/css"/>
+      <link rel="icon" href="..&#92;img&#92;eyenewslogo.png"/>
+      <link rel="stylesheet" href="..&#92;css&#92;eyexslstyle.css" type="text/css"/>
       <meta name= "keywords" content= ""/>
     </head>
     <body>
@@ -17,7 +17,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <table>
           <tr>
             <td>
-              <a href="#"><img type="img" id="logo" src="..\img\eyenewslogo.png" alt="EYEnewsLogo"/></a>
+              <a href="#"><img type="img" id="logo" src="..&#92;img&#92;eyenewslogo.png" alt="EYEnewsLogo"/></a>
             </td>
             <td>
               <ul class="navbar">
