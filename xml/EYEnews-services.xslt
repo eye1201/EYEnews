@@ -16,7 +16,7 @@
         <table>
           <tr>
             <td>
-              <a href="#"><img type="img" id="logo" src="..\img\eyenewslogo.png" alt="."<xsl:value-of select='//nombre'/>"."/></a>
+              <a href="#"><img type="img" id="logo" src="..\img\eyenewslogo.png" alt="EYEnewsLogo"/></a>
             </td>
             <th hidden ><h1><xsl:value-of select="//nombre"/></h1></th>
             <td>
