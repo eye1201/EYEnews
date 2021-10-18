@@ -22,8 +22,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <td>
               <ul class="navbar">
                   <li><a href="#">Inicio</a></li>
-                  <li><a href="..html\contacto">Contacto</a></li>
-                  <li><a href="..html\quienes">Quiénes somos</a></li>
+                  <li><a href="..\html\contacto">Contacto</a></li>
+                  <li><a href="..\html\quienes">Quiénes somos</a></li>
               </ul>
             </td>
           </tr>
