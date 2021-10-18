@@ -19,12 +19,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <td>
               <a href="#"><img type="img" id="logo" src="..\img\eyenewslogo.png" alt="EYEnewsLogo"/></a>
             </td>
-            <th><h1><xsl:value-of select="//nombre"/></h1></th>
             <td>
               <ul class="navbar">
                   <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Contacto</a></li>
-                  <li><a href="#">Quiénes somos</a></li>
+                  <li><a href="..html\contacto">Contacto</a></li>
+                  <li><a href="..html\quienes">Quiénes somos</a></li>
               </ul>
             </td>
           </tr>
