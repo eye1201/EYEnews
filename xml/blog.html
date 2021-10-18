@@ -26,7 +26,7 @@
         if (window.ActiveXObject || xhttp.responseType == "msxml-document")
         {
         ex = xml.transformNode(xsl);
-        document.getElementById("blog").innerHTML = ex;
+        document.getElementById("example").innerHTML = ex;
         }
         // code for Chrome, Firefox, Opera, etc.
         else if (document.implementation && document.implementation.createDocument)
@@ -34,12 +34,12 @@
         xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
         resultDocument = xsltProcessor.transformToFragment(xml, document);
-        document.getElementById("blog").appendChild(resultDocument);
+        document.getElementById("example").appendChild(resultDocument);
         }
         }
         </script>
     </head>
     <body onload="displayResult()">
-        <div id="blog" />
+        <div id="example" />
     </body>
 </html> 
