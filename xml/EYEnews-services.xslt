@@ -15,7 +15,7 @@
       <header>
         <table>
           <tr>
-            <td 'hidden'>
+            <td>
               <a href="#"><img type="img" id="logo" src="..\img\bgmarketlogo.ng" alt="."<xsl:value-of select='//nombre'/>"."/></a>
             </td>
             <th hidden ><h1><xsl:value-of select="//nombre"/></h1></th>
