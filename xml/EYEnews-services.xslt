@@ -121,7 +121,7 @@
       <!--pie de pagina-->
       <footer>
         <p>EYEnews</p>
-        <p>©Copyright 2021 | designed by: E.Y.E.</p>
+        <p>© Copyright 2021 | designed by: E.Y.E.</p>
       </footer>
       <!--fin pie de pagina-->
     </body>
