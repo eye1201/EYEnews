@@ -6,7 +6,7 @@
     <head>
       <title>Noticias de última hora | EYEnews</title>
       <meta charset="UTF-8"/>
-      <link rel="icon" href="..\img\bgmarketlogo.png"/>
+      <link rel="icon" href="..\img\eyenewslogo.png"/>
       <link rel="stylesheet" href="..\css\eyexslstyle.css" type="text/css"/>
       <meta name= "keywords" content= ""/>
     </head>
@@ -16,7 +16,7 @@
         <table>
           <tr>
             <td>
-              <a href="#"><img type="img" id="logo" src="..\img\bgmarketlogo.ng" alt="."<xsl:value-of select='//nombre'/>"."/></a>
+              <a href="#"><img type="img" id="logo" src="..\img\eyenewslogo.png" alt="."<xsl:value-of select='//nombre'/>"."/></a>
             </td>
             <th hidden ><h1><xsl:value-of select="//nombre"/></h1></th>
             <td>
