@@ -41,7 +41,7 @@ ul.dashed > li:before {
 }
 #cabecera {
     background-color:orange;
-    align: "center";
+    box-align: "center";
 }
 img {
     max-width:100%;
