@@ -23,14 +23,6 @@ div {
     margin: auto;
     padding: 10px;
 }
-/*NO FUNCIONA EN CSS*/
-/*a {
-    target="_blank";
-}*/
-/*Solo si quiero ocultr el summary*/
-/*.summary {
-    display: none;
-}*/
 
 ul.dashed > li:before {
     content: "-";
