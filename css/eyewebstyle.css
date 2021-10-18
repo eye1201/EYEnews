@@ -9,7 +9,7 @@ header {
 }
 
 ul.navbar {
-	background-color: blue;
+	background-color: #DCDCDC;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -23,14 +23,14 @@ ul.navbar li {
 
 ul.navbar li a {
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 12px;
 	text-decoration: none;
 }
 
 ul.navbar li a:hover {
-	background-color: #cde9e9;
+	background-color: white;
 }
 
 body {
