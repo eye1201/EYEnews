@@ -19,7 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <td>
               <a href="#"><img type="img" id="logo" src="..\img\eyenewslogo.png" alt="EYEnewsLogo"/></a>
             </td>
-            <th hidden ><h1><xsl:value-of select="//nombre"/></h1></th>
+            <th><h1><xsl:value-of select="//nombre"/></h1></th>
             <td>
               <ul class="navbar">
                   <li><a href="#">Inicio</a></li>
