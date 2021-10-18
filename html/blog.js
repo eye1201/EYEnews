@@ -20,8 +20,8 @@
 
         function displayResult()
         {
-        xml = loadXMLDoc("EYEnews.xml");
-        xslt = loadXMLDoc("EYEnews-services.xslt");
+        xml = loadXMLDoc("..\xml\EYEnews.xml");
+        xslt = loadXMLDoc("..\xml\EYEnews-services.xslt");
         // code for IE
         if (window.ActiveXObject || xhttp.responseType == "msxml-document")
         {
