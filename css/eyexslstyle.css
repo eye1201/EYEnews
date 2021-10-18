@@ -34,7 +34,7 @@ ul.navbar li a:hover {
 }
 
 body {
-	background-image:url("../img/Solid Colors/Solid Mint.png");
+	background-image:url("../img/solid-colors/Solid-Mint.png");
 	background-position:center;
 	background-repeat:repeat;
 }
@@ -102,7 +102,7 @@ table, td, th #noticias {
 }
 
 tbody.noticias2 {
-	background-image:url("../img/Solid Colors/Solid Lavender.png");
+	background-image:url("../img/solid-colors/Solid-Lavender.png");
 	background-attachment:scroll;
 }
 
