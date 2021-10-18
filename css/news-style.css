@@ -1,0 +1,125 @@
+#titulo { 
+    color:red; font-size:50px; 
+}
+a {
+    color:#21618C;
+}
+#indice {
+    background: linear-gradient(180deg, 
+        rgba(0,0,0,0) calc(50% - 1px), 
+        rgba(192,192,192,1) calc(50%), 
+        rgba(0,0,0,0) calc(50% + 1px)
+    );
+}
+#modulo, .summary { 
+    background-color:	#E6E6FA;
+    
+}
+#temario { 
+    background-color:#DCDCDC;
+    border: solid 1px;
+}
+div {
+    margin: auto;
+    padding: 10px;
+}
+/*NO FUNCIONA EN CSS*/
+/*a {
+    target="_blank";
+}*/
+/*Solo si quiero ocultr el summary*/
+/*.summary {
+    display: none;
+}*/
+
+ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+/**
+    # SE PONE EN EL BODY
+    <ul class="dashed">
+        <li>HOLA</li>
+    </ul>
+**/
+/* DIVs Classroom*/
+#tablon {
+    background-color:lightsalmon;	
+}
+#cabecera {
+    background-color:orange;
+    align: "center";
+}
+img {
+    max-width:100%;
+    max-height:100%;
+}
+#tareas {
+    background-color:lightcoral;
+}
+#bloque1 {
+    background-color:lightyellow;
+    display: block;
+}
+#bloque2 {
+    background-color:lightyellow;
+    display: block;
+}
+#bloque3 {
+    background-color:lightyellow;
+    display: block;
+}
+#bloque4 {
+    background-color:lightyellow;
+    display: block;
+}
+#bloque5 {
+    background-color:lightyellow;
+    display: block;
+}
+#comentarios {
+    background-color:lightgoldenrodyellow;
+}
+#publicaciones {
+    background-color:lightcoral;
+}
+
+#correo {
+    background-color:lightyellow;
+    display: block;
+}
+.recibido {
+    background-color:lightgoldenrodyellow;
+}
+.enviado {
+    background-color:lightgoldenrodyellow;
+}
+
+/* HR */
+hr.tablon {
+    border-top: 4px solid rgb(252, 138, 125);
+}
+hr.bloques {
+    border-top: 3.75px dotted tomato;
+}
+hr.publicaciones {
+    border-top: 2.25px solid  red;
+}
+
+hr.comentarios {
+    border-top: 2.75px dashed gold;
+}
+
+/*Cosas que necesito ocultar*/
+div.oculto{
+    display: none;
+}
+#oculto{
+    display: none;
+}
+/*
+p.comentarios, hr.comentarios{
+    display: none;
+}
+*/
