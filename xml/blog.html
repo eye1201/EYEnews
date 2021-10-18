@@ -26,7 +26,7 @@
         if (window.ActiveXObject || xhttp.responseType == "msxml-document")
         {
         ex = xml.transformNode(xsl);
-        document.getElementById("..\css\eyexslstyle.css").innerHTML = ex;
+        document.getElementById("eyenews").innerHTML = ex;
         }
         // code for Chrome, Firefox, Opera, etc.
         else if (document.implementation && document.implementation.createDocument)
@@ -34,12 +34,12 @@
         xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
         resultDocument = xsltProcessor.transformToFragment(xml, document);
-        document.getElementById("..\css\eyexslstyle.css").appendChild(resultDocument);
+        document.getElementById("eyenews").appendChild(resultDocument);
         }
         }
         </script>
     </head>
     <body onload="displayResult()">
-        <div id="..\css\eyexslstyle.css" />
+        <div id="eyenews" />
     </body>
 </html> 
