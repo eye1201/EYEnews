@@ -30,7 +30,7 @@ ul.navbar li a {
 }
 
 ul.navbar li a:hover {
-	background-color: #00FFFF;
+	background-color: #cde9e9;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 	background-position:center;
 	background-repeat:no-repeat;
 	background-image:url("../img/periodico.png");
-	background-color: #E0FFFF;
+	background-color: #ececec;
 	background-attachment:scroll;
 }
 
