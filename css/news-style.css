@@ -1,9 +1,15 @@
 #titulo { 
-    color:red; font-size:50px; 
+    color:rgb(1, 1, 1); font-size:50px; 
+    text-align:center;
 }
 a {
     color:#21618C;
 }
+
+.print { 
+    text-align:right;
+}
+
 #indice {
     background: linear-gradient(180deg, 
         rgba(0,0,0,0) calc(50% - 1px), 
@@ -11,17 +17,17 @@ a {
         rgba(0,0,0,0) calc(50% + 1px)
     );
 }
-#modulo, .summary { 
+.summary { 
     background-color:	#E6E6FA;
     
 }
-#temario { 
+#noticiario { 
     background-color:#DCDCDC;
     border: solid 1px;
 }
 div {
     margin: auto;
-    padding: 10px;
+    padding: 7px;
 }
 
 ul.dashed > li:before {
@@ -29,89 +35,54 @@ ul.dashed > li:before {
     text-indent: -5px;
 }
 
-/**
-    # SE PONE EN EL BODY
-    <ul class="dashed">
-        <li>HOLA</li>
-    </ul>
-**/
-/* DIVs Classroom */
+
+
+/* inicio div TABLON */
 #tablon {
-    background-color:lightsalmon;	
-}
-#cabecera {
-    background-color:orange;
-    box-align: "center";
+    background-color:lightgray;	
 }
 img {
     max-width:100%;
     max-height:100%;
 }
-#tareas {
-    background-color:lightcoral;
+#tablon2 {
+    background-color: lightslategray;
 }
-#bloque1 {
-    background-color:lightyellow;
+ol.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+#bloque {
+    background-color:lightgrey;
     display: block;
-}
-#bloque2 {
-    background-color:lightyellow;
-    display: block;
-}
-#bloque3 {
-    background-color:lightyellow;
-    display: block;
-}
-#bloque4 {
-    background-color:lightyellow;
-    display: block;
-}
-#bloque5 {
-    background-color:lightyellow;
-    display: block;
-}
-#comentarios {
-    background-color:lightgoldenrodyellow;
-}
-#publicaciones {
-    background-color:lightcoral;
 }
 
-#correo {
-    background-color:lightyellow;
-    display: block;
+.detalle {
+    background-color:#c5c5d8;
 }
-.recibido {
-    background-color:lightgoldenrodyellow;
-}
-.enviado {
-    background-color:lightgoldenrodyellow;
-}
+
+
+
 
 /* HR */
-hr.tablon {
-    border-top: 4px solid rgb(252, 138, 125);
-}
 hr.bloques {
-    border-top: 3.75px dotted tomato;
+    border-top: 3.75px dotted gainsboro;
 }
-hr.publicaciones {
-    border-top: 2.25px solid  red;
-}
-
-hr.comentarios {
-    border-top: 2.75px dashed gold;
+hr.fuentes {
+    border-top: 2.75px dashed black;
 }
 
-/*Cosas que necesito ocultar*/
+
+/*  .NOMBRE es un class # es un ID  */
+
+/*  Cosas que necesito ocultar  */
 div.oculto{
     display: none;
 }
 #oculto{
     display: none;
 }
-/*
-p.comentarios, hr.comentarios{
-    display: none;
-}
-*/
+
+
+
+
