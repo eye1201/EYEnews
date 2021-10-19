@@ -34,7 +34,7 @@
 		<!--contenido de pagina de pagina-->
 		<h1 id="titulo">Noticias de tecnología de última hora</h1>
 		<p hidden class="print" onclick="window.print();"></p>
-		<p class="print"><button  onclick="alert('Pulsa en aceptar para proceder a imprimir la página.');window.print();"> Imprimir 🖨️ página 📝 </button></p>
+		<p class="printPageButton"><button  onclick="alert('Pulsa en aceptar para proceder a imprimir la página.');window.print();"> Imprimir 🖨️ página 📝 </button></p>
 		<div id="noticiario">
 			<div id="indice">
 				<div class="summary">
@@ -57,7 +57,8 @@
 				<div id="tablon2">
 					<div id="bloque">
 						<ol>
-							<li>
+							<p>No hay noticias publicadas en este momento.</p>
+							<li hidden>
 								<div id="noticia_YYYY-MM-DD">
 									<h1>Titulo-Noticia-2</h1>
 									<p class="fecha-noticia"><i>DD/MM/202Y</i></p>
@@ -77,10 +78,9 @@
 										</details>
 									</div>
 								</div>
-								<hr hidden class="fuentes"/>
 								<hr  style="border: 1px dashed"/>
 							</li>
-							<li>
+							<li hidden >
 								<div id="noticia_YYYY-MM-DD">
 									<h1>Titulo-Noticia-1</h1>
 									<p class="fecha-noticia"><i>DD/MM/202Y</i></p>
@@ -98,7 +98,7 @@
 										</details>
 									</div>
 								</div>
-								<hr class="fuentes"/>
+								<hr  style="border: 1px dashed"/>
 							</li>
 						</ol>
 					</div>

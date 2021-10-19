@@ -6,8 +6,14 @@ a {
     color:#21618C;
 }
 
-.print { 
+.printPageButton { 
     text-align:right;
+}
+
+@media print {
+    .printPageButton {
+        display: none;
+    }
 }
 
 #indice {
