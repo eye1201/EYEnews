@@ -1,3 +1,4 @@
+/* mi menu lineal */
 header {
 	font-family:Comic Sans MS;
 	font-size:15px;
@@ -28,10 +29,16 @@ ul.navbar li a {
 	padding: 12px;
 	text-decoration: none;
 }
-
+/* Change the link color to #white on hover */
 ul.navbar li a:hover {
 	background-color: white;
 }
+.active {
+	background-color:  rgb(162, 161, 161);
+}
+
+/* fin de mi menu lineal*/
+
 
 body {
 	background-image:url("../img/solid-colors/Silver.png");

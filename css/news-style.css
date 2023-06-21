@@ -55,7 +55,7 @@ img {
     background-color: lightslategray;
 }
 ol.dashed > li:before {
-    content: "-";
+    content: " - ";
     text-indent: -5px;
 }
 #bloque {
