@@ -44,6 +44,11 @@ body {
 	background-image:url("../img/solid-colors/Silver.png");
 	background-position:center;
 	background-repeat:repeat;
+	/**nueva configuración propuesta del nuevo css**/
+	margin: 0;
+	padding: 0;
+	color:rgb(0, 0, 0); 
+	font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 #bienvenida {
