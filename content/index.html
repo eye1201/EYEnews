@@ -10,110 +10,112 @@
 		</style>
 	</head>
 	<body>
-		<!--encabezado-->
-		<nav role="navigation">
-			<div id="menuToggle">
-				<!--
-				A fake / hidden checkbox is used as click reciever,
-				so you can use the :checked selector on it.
-				-->
-				<input type="checkbox" />
-				
-				<!--
-				Some spans to act as a hamburger.
-				
-				They are acting like a real hamburger,
-				not that McDonalds stuff.
-				-->
-				<span></span>
-				<span></span>
-				<span></span>
-				
-				<!--
-				Too bad the menu has to be inside of the button
-				but hey, it's pure CSS magic.
-				-->
-				<ul id="menu">
-					<a href="."><li class="active">Inicio</li></a>
-					<a href="productos_android.html"><li>android</li></a>
-					<a href="productos.html"><li>iPhone</li></a>
-				</ul>
-			</div>
-		</nav>
-		<!--fin encabezado-->
-		<!--contenido de pagina de pagina-->
-		<br/>
 		<div class="content">
-			<h1 id="titulo">El comparador</h1>
-			<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
-			<div id="indice">
-				<div class="summary">
-					<!-- para que esté siempre abierto, añade la etiqueta open <details open > -->
-					<details open>
-						<summary>
-							<b style="text-decoration: underline; text-decoration-style: solid;">Última actualización: 21/06/2023 07:05h CEST</b>
-						</summary>
-						<div class="detalle">
-							<p>
-								<span>La web se va actualizando lo antes posible.</span><br/>
-								<span>¡Disculpe las molestias!</span>
-							</p>
-						</div>
-					</details>
-				</div>
-			</div>
-			<div id="seccionProductos">
-				<p hidden>No hay productos añadidos para comparar precios en este momento.</p>
-				<div class="tablaProductos">
-					<table  id="android" class="productos">
-						<thead>
-							<tr hidden>
-								<th>Android</th>
-								<th>Apple</th>
-								<th hidden>Ordenadores</th>
-							</tr>
-							<tr>
-								<th colspan="3">Elige</th>
-							</tr>
-						</thead>
-						
-						<tfoot>
-							<tr>
-								<th>Android</th>
-								<th>Apple</th>
-								<th hidden>Ordenadores</th>
-							</tr>
-						</tfoot>
-						<tbody class="productos">
-							
-							<tr>
-								<th>
-									<a href="productos_android.html"><img type="img" id="imgdispositivo" src="Logo-Android.png" alt="Logo-Android"/></a>
-								</th>
-								<th>
-									<a href="productos.html"><img type="img" id="imgdispositivo" src="Logo-Apple.png" alt="Logo-Apple"/></a>
-								</th>
-								<th hidden>
-									<a href="#"><img type="img" id="imgdispositivo" src="nombreproducto.png" alt="nombreproducto"/></a>
-								</th>
-							</tr>
-						</tbody>
-					</table>
+			<!--encabezado-->
+			<nav role="navigation">
+				<div id="menuToggle">
 					<!--
-					<br/>
-					<hr hidden ="border: 2px dashed"/>
-					<br/>
-					<br/>
+					A fake / hidden checkbox is used as click reciever,
+					so you can use the :checked selector on it.
 					-->
-			   </div>
-			</div>
-			<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
-		</div>		
-		<!--fin contenido de pagina de pagina-->
-		<!--pie de pagina-->
-		<footer>
-			<p>© 2023 | designed by: E.Y.E.</p>
-		</footer>
-		<!--fin pie de pagina-->
+					<input type="checkbox" />
+					
+					<!--
+					Some spans to act as a hamburger.
+					
+					They are acting like a real hamburger,
+					not that McDonalds stuff.
+					-->
+					<span></span>
+					<span></span>
+					<span></span>
+					
+					<!--
+					Too bad the menu has to be inside of the button
+					but hey, it's pure CSS magic.
+					-->
+					<ul id="menu">
+						<a href="."><li class="active">Inicio</li></a>
+						<a href="productos_android.html"><li>android</li></a>
+						<a href="productos.html"><li>iPhone</li></a>
+					</ul>
+				</div>
+			</nav>
+			<!--fin encabezado-->
+			<!--contenido de pagina de pagina-->
+			<br/>
+			<!--<div class="content">-->
+				<h1 id="titulo">El comparador</h1>
+				<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+				<div id="indice">
+					<div class="summary">
+						<!-- para que esté siempre abierto, añade la etiqueta open <details open > -->
+						<details open>
+							<summary>
+								<b style="text-decoration: underline; text-decoration-style: solid;">Última actualización: 21/06/2023 07:05h CEST</b>
+							</summary>
+							<div class="detalle">
+								<p>
+									<span>La web se va actualizando lo antes posible.</span><br/>
+									<span>¡Disculpe las molestias!</span>
+								</p>
+							</div>
+						</details>
+					</div>
+				</div>
+				<div id="seccionProductos">
+					<p hidden>No hay productos añadidos para comparar precios en este momento.</p>
+					<div class="tablaProductos">
+						<table  id="android" class="productos">
+							<thead>
+								<tr hidden>
+									<th>Android</th>
+									<th>Apple</th>
+									<th hidden>Ordenadores</th>
+								</tr>
+								<tr>
+									<th colspan="3">Elige</th>
+								</tr>
+							</thead>
+							
+							<tfoot>
+								<tr>
+									<th>Android</th>
+									<th>Apple</th>
+									<th hidden>Ordenadores</th>
+								</tr>
+							</tfoot>
+							<tbody class="productos">
+								
+								<tr>
+									<th>
+										<a href="productos_android.html"><img type="img" id="imgdispositivo" src="Logo-Android.png" alt="Logo-Android"/></a>
+									</th>
+									<th>
+										<a href="productos.html"><img type="img" id="imgdispositivo" src="Logo-Apple.png" alt="Logo-Apple"/></a>
+									</th>
+									<th hidden>
+										<a href="#"><img type="img" id="imgdispositivo" src="nombreproducto.png" alt="nombreproducto"/></a>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						<!--
+						<br/>
+						<hr hidden ="border: 2px dashed"/>
+						<br/>
+						<br/>
+						-->
+				</div>
+				</div>
+				<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+			<!--</div>-->	
+			<!--fin contenido de pagina de pagina-->
+			<!--pie de pagina-->
+			<footer>
+				<p>© 2023 | designed by: E.Y.E.</p>
+			</footer>
+			<!--fin pie de pagina-->
+		</div>
 	</body>
 </html>

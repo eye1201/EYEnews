@@ -11,152 +11,151 @@
 	</head>
 	<body>
 		<div class="content">
-		<!--encabezado-->
-		<!-- sin encabezado -->
-		<nav role="navigation">
-			<div id="menuToggle">
-				<!--
-				A fake / hidden checkbox is used as click reciever,
-				so you can use the :checked selector on it.
-				-->
-				<input type="checkbox" />
-				
-				<!--
-				Some spans to act as a hamburger.
-				
-				They are acting like a real hamburger,
-				not that McDonalds stuff.
-				-->
-				<span></span>
-				<span></span>
-				<span></span>
-				
-				<!--
-				Too bad the menu has to be inside of the button
-				but hey, it's pure CSS magic.
-				-->
-				<ul id="menu">
-					<a href="index.html"><li>Inicio</li></a>
-					<a href="productos_android.html"><li class="active">android</li></a>
-					<a href="productos.html"><li>iPhone</li></a>
-				</ul>
-			</div>
-		</nav>
-		<!--fin encabezado-->
-		<!--contenido de pagina de pagina-->
-		<br/>
-		<!--<div class="content">-->
-			<h1 id="titulo">El comparador de precios de android</h1>
-			<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
-			<div hidden id="indice">
-				<div class="summary">
-					<!-- para que esté siempre abierto, añade la etiqueta open <details open > -->
-					<details open>
-						<summary>
-							<b style="text-decoration: underline; text-decoration-style: wavy;">Última actualización: 21/06/2023 07:05h CEST</b>
-						</summary>
-						<div class="detalle">
-							<p>
-								<span>Los precios se van actualizando lo antes posible.</span><br/>
-								<span>Disculpen las molestias.</span><br/><br/>
-								<span><i>En la sección colores pulsa en el nombre del color para ver el color</i></span><br/>
-								<span><i>En la sección precios pulsa en el nombre del color para ir a la tienda que lo vende</i></span>
-							</p>
-						</div>
-					</details>
-				</div>
-			</div>
-			<div id="seccionProductos">
-				<p >No hay productos añadidos para comparar precios en este momento.</p>
-				<div class="tablaProductos">
-					<table hidden id="android" class="productos">
-						<thead>
-							<tr>
-								<th>Nombre del producto</th>
-								<th>Colores</th>
-								<th>Precio (€)</th>
-							</tr>
-						</thead>
-						<tfoot>
-							<tr>
-								<th>Nombre del producto</th>
-								<th>Colores</th>
-								<th>Precio (€)</th>
-							</tr>
-						</tfoot>
-						<tbody class="productos">
-							<tr id="nombreproducto">
-								<th id="nombreproducto">
-									<img type="img" id="imgdispositivo" src="nombreproducto.jpg" alt="nombreproducto"/><br/>
-									nombreproducto <span><i>de XXX GB</i></span>
-								</th>
-								<td>
-								<label>
-									<span> - <a href="nombreproducto.jpg" target="_blank"">color</a></span><br/><br/>
-								</label>
-								</td>
-								<td>
-									<span><b>Tienda:</b></span><br/>
-									<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
-									<hr style="border: 1px dashed"/>
-									<span><b>Tienda:</b></span><br/>
-									<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
-								</td>
-							</tr>
-							<tr id="nombreproducto">
-								<th id="nombreproducto">
-									<img type="img" id="imgdispositivo" src="nombreproducto.jpg" alt="nombreproducto"/<br/>
-									nombreproducto <span><i>de XXX GB</i></span>
-								</th>
-								<td>
-								<label>
-									<span> - <a href="nombreproducto.jpg" target="_blank"">color</a></span><br/><br/>
-								</label>
-								</td>
-								<td>
-									<span><b>Tienda:</b></span><br/>
-									<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
-									<hr style="border: 1px dashed"/>
-									<span><b>Tienda:</b></span><br/>
-									<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
-								</td>
-							</tr>
-							<tr id="nombreproducto">
-								<th id="nombreproducto">
-									<img type="img" id="imgdispositivo" src="nombreproducto.jpg" alt="nombreproducto"/><br/>
-									nombreproducto <span><i>de XXX GB</i></span>
-								</th>
-								<td>
-								<label>
-									<span> - <a href="nombreproducto.jpg" target="_blank"">color</a></span><br/><br/>
-								</label>
-								</td>
-								<td>
-									<span><b>Tienda:</b></span><br/>
-									<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
-									<hr style="border: 1px dashed"/>
-									<span><b>Tienda:</b></span><br/>
-									<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+			<!--encabezado-->
+			<nav role="navigation">
+				<div id="menuToggle">
 					<!--
-					<br/>
-					<hr hidden ="border: 2px dashed"/>
-					<br/>
-					<br/>
+					A fake / hidden checkbox is used as click reciever,
+					so you can use the :checked selector on it.
 					-->
-			   </div>
-			</div>
-			<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
-		<!--</div>-->		
-		<!--fin contenido de pagina de pagina-->
-		<!--pie de pagina-->
-		<footer>
-			<p>© 2023 | designed by: E.Y.E.</p>
-		</footer>
-		<!--fin pie de pagina-->
+					<input type="checkbox" />
+					
+					<!--
+					Some spans to act as a hamburger.
+					
+					They are acting like a real hamburger,
+					not that McDonalds stuff.
+					-->
+					<span></span>
+					<span></span>
+					<span></span>
+					
+					<!--
+					Too bad the menu has to be inside of the button
+					but hey, it's pure CSS magic.
+					-->
+					<ul id="menu">
+						<a href="index.html"><li>Inicio</li></a>
+						<a href="productos_android.html"><li class="active">android</li></a>
+						<a href="productos.html"><li>iPhone</li></a>
+					</ul>
+				</div>
+			</nav>
+			<!--fin encabezado-->
+			<!--contenido de pagina de pagina-->
+			<br/>
+			<!--<div class="content">-->
+				<h1 id="titulo">El comparador de precios de android</h1>
+				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+				<div hidden id="indice">
+					<div class="summary">
+						<!-- para que esté siempre abierto, añade la etiqueta open <details open > -->
+						<details open>
+							<summary>
+								<b style="text-decoration: underline; text-decoration-style: wavy;">Última actualización: 21/06/2023 07:05h CEST</b>
+							</summary>
+							<div class="detalle">
+								<p>
+									<span>Los precios se van actualizando lo antes posible.</span><br/>
+									<span>Disculpen las molestias.</span><br/><br/>
+									<span><i>En la sección colores pulsa en el nombre del color para ver el color</i></span><br/>
+									<span><i>En la sección precios pulsa en el nombre del color para ir a la tienda que lo vende</i></span>
+								</p>
+							</div>
+						</details>
+					</div>
+				</div>
+				<div id="seccionProductos">
+					<p >No hay productos añadidos para comparar precios en este momento.</p>
+					<div class="tablaProductos">
+						<table hidden id="android" class="productos">
+							<thead>
+								<tr>
+									<th>Nombre del producto</th>
+									<th>Colores</th>
+									<th>Precio (€)</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr>
+									<th>Nombre del producto</th>
+									<th>Colores</th>
+									<th>Precio (€)</th>
+								</tr>
+							</tfoot>
+							<tbody class="productos">
+								<tr id="nombreproducto">
+									<th id="nombreproducto">
+										<img type="img" id="imgdispositivo" src="nombreproducto.jpg" alt="nombreproducto"/><br/>
+										nombreproducto <span><i>de XXX GB</i></span>
+									</th>
+									<td>
+									<label>
+										<span> - <a href="nombreproducto.jpg" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Tienda:</b></span><br/>
+										<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
+										<hr style="border: 1px dashed"/>
+										<span><b>Tienda:</b></span><br/>
+										<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
+									</td>
+								</tr>
+								<tr id="nombreproducto">
+									<th id="nombreproducto">
+										<img type="img" id="imgdispositivo" src="nombreproducto.jpg" alt="nombreproducto"/<br/>
+										nombreproducto <span><i>de XXX GB</i></span>
+									</th>
+									<td>
+									<label>
+										<span> - <a href="nombreproducto.jpg" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Tienda:</b></span><br/>
+										<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
+										<hr style="border: 1px dashed"/>
+										<span><b>Tienda:</b></span><br/>
+										<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
+									</td>
+								</tr>
+								<tr id="nombreproducto">
+									<th id="nombreproducto">
+										<img type="img" id="imgdispositivo" src="nombreproducto.jpg" alt="nombreproducto"/><br/>
+										nombreproducto <span><i>de XXX GB</i></span>
+									</th>
+									<td>
+									<label>
+										<span> - <a href="nombreproducto.jpg" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Tienda:</b></span><br/>
+										<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
+										<hr style="border: 1px dashed"/>
+										<span><b>Tienda:</b></span><br/>
+										<span> - <a href="#" target="_blank" rel="noopener noreferrer">[COLOR -> EUROS €]</a></span><br/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--
+						<br/>
+						<hr hidden ="border: 2px dashed"/>
+						<br/>
+						<br/>
+						-->
+				</div>
+				</div>
+				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+			<!--</div>-->		
+			<!--fin contenido de pagina de pagina-->
+			<!--pie de pagina-->
+			<footer>
+				<p>© 2023 | designed by: E.Y.E.</p>
+			</footer>
+			<!--fin pie de pagina-->
 		</div>
 	</body>
 </html>
