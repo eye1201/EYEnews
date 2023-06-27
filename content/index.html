@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>El comparador | from E.Y.E.</title>
 		<link rel="icon" type="image/png" href="..\img\eyenewslogo.png"/>
 		<link rel="stylesheet" href="..\css\webproductos.css" type="text/css"/>
@@ -44,9 +44,9 @@
 			<!--fin encabezado-->
 			<!--contenido de pagina de pagina-->
 			<br/>
-			<!--<div class="content">-->
+			<div class="contentb">
 				<h1 id="titulo">El comparador</h1>
-				<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
 				<div id="indice">
 					<div class="summary">
 						<!-- para que esté siempre abierto, añade la etiqueta open <details open > -->
@@ -66,7 +66,7 @@
 				<div id="seccionProductos">
 					<p hidden>No hay productos añadidos para comparar precios en este momento.</p>
 					<div class="tablaProductos">
-						<table  id="android" class="productos">
+						<table id="dispositivos" class="productos">
 							<thead>
 								<tr hidden>
 									<th>Android</th>
@@ -89,13 +89,13 @@
 								
 								<tr>
 									<th>
-										<a href="productos_android.html"><img type="img" id="imgdispositivo" src="Logo-Android.png" alt="Logo-Android"/></a>
+										<a href="productos_android.html"><img type="img" id="imglogo" src="Logo-Android.png" alt="Logo-Android"/></a>
 									</th>
 									<th>
-										<a href="productos.html"><img type="img" id="imgdispositivo" src="Logo-Apple.png" alt="Logo-Apple"/></a>
+										<a href="productos.html"><img type="img" id="imglogo" src="Logo-Apple.png" alt="Logo-Apple"/></a>
 									</th>
 									<th hidden>
-										<a href="#"><img type="img" id="imgdispositivo" src="nombreproducto.png" alt="nombreproducto"/></a>
+										<a href="#"><img type="img" id="imglogo" src="nombreproducto.png" alt="nombreproducto"/></a>
 									</th>
 								</tr>
 							</tbody>
@@ -106,10 +106,10 @@
 						<br/>
 						<br/>
 						-->
+					</div>
 				</div>
-				</div>
-				<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
-			<!--</div>-->	
+				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+			</div>	
 			<!--fin contenido de pagina de pagina-->
 			<!--pie de pagina-->
 			<footer>
