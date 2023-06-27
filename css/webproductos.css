@@ -9,22 +9,18 @@
 * prefixes.
 */
 
-body
-{
-margin: 0;
-padding: 0;
-
-/* make it look decent enough */
-background: #ededed;
+html, body{
+    margin: 0;
+    padding: 0;
+    /* make it look decent enough */
+    background: #ededed;
     /* cambia color texto*/
-color:rgb(0, 0, 0); 
-font-family: "Avenir Next", "Avenir", sans-serif;
+    color:rgb(0, 0, 0); 
+    font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 /* * inicio menu hamburguesa _ retocado del original* */
-
-#menuToggle
-{
+#menuToggle {
 display: block;
 position: relative;
 top: 50px;
@@ -36,25 +32,21 @@ z-index: 1;
 user-select: none;
 }
 
-#menuToggle a
-{
+#menuToggle a {
 text-decoration: none;
 color: #232323;
 
 transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
-{
+#menuToggle a:hover {
 color: rgb(172, 172, 172);
 }
 #menuToggle .active {
     color: rgb(34, 158, 34);
 }
 
-
-#menuToggle input
-{
+#menuToggle input {
 display: block;
 width: 40px;
 height: 32px;
@@ -73,8 +65,7 @@ z-index: 2; /* and place it over the hamburger */
 /*
 * Just a quick hamburger
 */
-#menuToggle span
-{
+#menuToggle span {
 display: block;
 width: 33px;
 height: 4px;
@@ -93,13 +84,11 @@ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
             opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
 transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
 transform-origin: 0% 100%;
 }
 
@@ -107,8 +96,7 @@ transform-origin: 0% 100%;
 * Transform all the slices of hamburger
 * into a crossmark.
 */
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
 opacity: 1;
 transform: rotate(45deg) translate(-2px, -1px);
 background: #232323;
@@ -117,8 +105,7 @@ background: #232323;
 /*
 * But let's hide the middle one.
 */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
 opacity: 0;
 transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -126,8 +113,7 @@ transform: rotate(0deg) scale(0.2, 0.2);
 /*
 * Ohyeah and the last one should go the other direction
 */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
 transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -135,8 +121,7 @@ transform: rotate(-45deg) translate(0, -1px);
 * Make this absolute positioned
 * at the top left of the screen
 */
-#menu
-{
+#menu {
 position: absolute;
 width: 300px;
 margin: -100px 0 0 -50px;
@@ -154,8 +139,7 @@ transform: translate(-100%, 0);
 transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li {
 padding: 10px 0;
 font-size: 22px;
 }
@@ -163,8 +147,7 @@ font-size: 22px;
 /*
 * And let's slide it in from the left
 */
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
 transform: none;
 }
 /* * fin menu hamburguesa * */
@@ -190,6 +173,7 @@ transform: none;
 *
 * 202306210340
 * 202306210729
+* 202306270611
 */
 
 /* * decoración texto * */
@@ -211,38 +195,48 @@ transform: none;
 }
 
 div.content {
-    margin: auto;
-    padding: 25px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+div.contentb {
+    margin: 0 auto;
+    max-width: 80%;
+    display:inline;
 }
 
+/* *indice y resumen* */
 #indice .summary {
     background: linear-gradient(180deg, 
         rgba(0,0,0,0) calc(50% - 1px), 
         rgb(243, 242, 242) calc(50%), 
-        rgba(0,0,0,0) calc(50% + 1px)
+        rgba(0,0,0,0) calc(50% + 5px)
     );
     background-color:#E6E6FA;
-    margin: auto;
-    padding: 25px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
 .detalle {
     background-color:#c5c5d8;
-    margin: auto;
+    margin: 0 auto;
     padding: 12px;
 }
 .detalle i {
     font-size: 12px; 
 }
-
+/* *productos* */
 div#seccionProductos { 
     background-color:#DCDCDC;
-    margin: auto;
+    margin: 0 auto;
     padding: 25px;
+    width: fit-content;
 }
 
 div#seccionProductos p { 
     background-color:#d6d2d2;
-    margin: auto;
+    margin: 0 auto;
     padding: 25px;
     text-align: center;
 }
@@ -251,14 +245,18 @@ table.productos, thead th, tbody th, tbody td , tfoot th, tfoot td {
     border: 1px solid;
     border-collapse: collapse;
     background-color:#d6d2d2;
-    margin: auto;
+    margin: 0 auto;
     padding: 7px;
 }
 #imgdispositivo {
-    width:174px;
+    width: 174px;
+    max-width: 80%;
 }
 #imgdispositivo2 {
     height:100px; 
+    width:100px;
+}
+#imglogo {
     width:100px;
 }
 div.content a {
