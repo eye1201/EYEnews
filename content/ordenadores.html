@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Comparativa precios de ordenadores | from E.Y.E.</title>
+		<title>Comparativa de ordenadores | from E.Y.E.</title>
 		<link rel="icon" type="image/png" href="..\img\eyenewslogo.png"/>
 		<link rel="stylesheet" href="..\css\webproductos.css" type="text/css"/>
 		<style>
@@ -35,10 +35,10 @@
 					but hey, it's pure CSS magic.
 					-->
 					<ul id="menu">
-						<a href="index.html"><li>Inicio</li></a>
-						<a href="productos_android.html"><li>android</li></a>
-						<a href="productos.html"><li>iPhone</li></a>
-                        <a href="ordenadores.html"><li class="active">ordenadores</li></a>
+						<a href="index.html"><li>▻ Inicio</li></a>
+						<a href="productos_android.html"><li>📱 Android</li></a>
+						<a href="productos.html"><li> iPhone</li></a>
+                        <a href="ordenadores.html"><li class="active">💻 Ordenadores</li></a>
 					</ul>
 				</div>
 			</nav>
@@ -46,35 +46,41 @@
 			<!--contenido de pagina de pagina-->
 			<br/>
 			<div class="contentb">
-				<h1 id="titulo">El comparador de precios de ordenadores</h1>
+				<h1 id="titulo">El comparador de ordenadores</h1>
 				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
 				<div  id="indice">
 					<div class="summary">
 						<!-- para que esté siempre abierto, añade la etiqueta open <details open > -->
 						<details open>
 							<summary>
-								<b style="text-decoration: underline; text-decoration-style: dotted;">Última actualización: 22/09/2023 18:38h CEST</b>
+								<b style="text-decoration: underline; text-decoration-style: dotted;">Última actualización: 25/09/2023 02:07h CEST</b>
 							</summary>
 							<div class="detalle">
 								<p>
-                                    <hr style="border: 1px line"/>
 									<span>Los precios se van actualizando lo antes posible.</span><br/>
-									<span>Disculpen las molestias.</span><br/><br/>
+									<span>¡Disculpe las molestias!</span>
+									<hr style="border: 1px line"/>
                                     <span><i>Intel generaciones 10,11,12,13.</i></span><br/>
                                     <span><i>Intel i3 - gama baja, i5 - gama media, i7 - gama alta</i></span><br/>
                                     <hr style="border: 1px dotted"/>
                                     <span><i>AMD Ryzen generaciones 3,4,5,6,7.</i></span><br/>
                                     <span><i>AMD Ryzen 3 - gama baja, Ryzen 5 - gama media, Ryzen 7 - gama alta</i></span>
+									<hr style="border: 1px dotted"/>
+									<span><i>Apple Chip M1, M2.</i></span><br/>
+                                    <span><i>M1, M1 Pro, M1 Max, M1 Ulra; M2, M2 Pro, M2 Max, M2 Ulra</i></span><br/>
                                     <hr style="border: 1px line"/>
 								</p>
 							</div>
 						</details>
 					</div>
 				</div>
+				<br/>
 				<div id="seccionProductos">
 					<p hidden >No hay productos añadidos para comparar precios en este momento.</p>
+					<p hidden >En este momento no se puede visualizar la tabla de dispositivos. <a href="https://wa.me/?text=Quiero%20más%20info%20sobre%20ordenadores.[EYEweb%20|https://eye1201.github.io/EYEnews/content/ordenadores.html%23Windows]" target="_blank" rel="noopener noreferrer">Pulsa aquí para obetener información.</a></p>
 					<div class="tablaProductos">
-						<table id="android" class="productos">
+						<h5 style="text-align: center;">Ordenadores Windows</h5>
+						<table id="Windows" class="productos">
 							<thead>
 								<tr>
 									<th>Nombre del producto</th>
@@ -82,7 +88,7 @@
 									<th>Precio (€)</th>
 								</tr>
 							</thead>
-							<tfoot>
+							<tfoot hidden>
 								<tr>
 									<th>Nombre del producto</th>
 									<th hidden>Colores</th>
@@ -91,9 +97,9 @@
 							</tfoot>
 							<tbody class="productos">
 								<tr id="ASUS-VivoBook-15">
-									<th id="MARCA">
+									<th id="ASUS-VivoBook-15">
 										<img type="img" id="imgdispositivo" src="https://estore.asus.com/media/catalog/product/c/f/cf48d5e5882f731c97d9c61499df4ea7.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439" alt="ASUS-VivoBook-15"/><br/>
-										ASUS Vivobook 15 - <span><i>[512GB, 8GB RAM, Intel i5-12ªGen]</i></span>
+										ASUS Vivobook 15 <br/> <span><i>[512GB, 8GB RAM, Intel i5-12ªGen]</i></span>
 									</th>
 									<td hidden>
 									<label>
@@ -101,15 +107,15 @@
 									</label>
 									</td>
 									<td>
-										<span><b>Asus Store:</b></span>
-										<span> - <a href="https://estore.asus.com/es/portatil-asus-vivobook-15.html" target="_blank" rel="noopener noreferrer">529 €</a></span><br/>
-										<hr style="border: 1px dashed"/>
+										<span><b>Asus Store:</b></span><br/>
+										<span><a href="https://estore.asus.com/es/portatil-asus-vivobook-15.html" target="_blank" rel="noopener noreferrer">529 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
 									</td>
 								</tr>
 								<tr id="ASUS-VivoBook-Go-15">
 									<th id="ASUS-VivoBook-Go-15">
 										<img type="img" id="imgdispositivo" src="https://estore.asus.com/media/catalog/product/5/6/5655f050ab75f7f8eb4cdcfbc8b0681e_4.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439" alt="ASUS-VivoBook-Go-15"/><br/>
-                                        ASUS Vivobook Go 15 E1504FA-NJ642W - <span><i>[512GB, 8GB RAM, AMD Ryzen 5 - 7ªGen]</i></span>
+                                        ASUS Vivobook Go 15 E1504FA-NJ642W <br/> <span><i>[512GB, 8GB RAM, AMD Ryzen 5 - 7ªGen]</i></span>
 									</th>
 									<td hidden>
 									<label>
@@ -117,15 +123,15 @@
 									</label>
 									</td>
 									<td>
-										<span><b>Asus Store:</b></span>
-										<span> - <a href="https://estore.asus.com/es/90nb0zr1-m011y0-asus-vivobook-go-15-oled-e1504f.html" target="_blank" rel="noopener noreferrer">529 €</a></span><br/>
-										<hr style="border: 1px dashed"/>
+										<span><b>Asus Store:</b></span><br/>
+										<span><a href="https://estore.asus.com/es/90nb0zr1-m011y0-asus-vivobook-go-15-oled-e1504f.html" target="_blank" rel="noopener noreferrer">529 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
 									</td>
 								</tr>
                                 <tr id="ASUS_F415JA-EK2083W">
 									<th id="ASUS_F415JA-EK2083W">
 										<img type="img" id="imgdispositivo" src="https://m.media-amazon.com/images/I/71JmY3ZqOZL._AC_SX522_.jpg" alt="ASUS_F415JA-EK2083W"/><br/>
-										ASUS F415JA-EK2083W - <span><i>[256GB, 8GB RAM, Intel i3-10ªGen]</i></span>
+										ASUS F415JA-EK2083W <br/> <span><i>[256GB, 8GB RAM, Intel i3-10ªGen]</i></span>
 									</th>
 									<td hidden>
 									<label>
@@ -133,15 +139,15 @@
 									</label>
 									</td>
 									<td>
-										<span><b>Amazon:</b></span>
-										<span> - <a href=https://www.amazon.es/dp/B09T78451Q/ target="_blank" rel="noopener noreferrer">438 €</a></span><br/>
-										<hr style="border: 1px dashed"/>
+										<span><b>Amazon:</b></span><br/>
+										<span><a href=https://www.amazon.es/dp/B09T78451Q/ target="_blank" rel="noopener noreferrer"><del>438 €</del> 401,83 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
 									</td>
 								</tr>
                                 <tr id="ASUS_F1400EA-EB1837W">
 									<th id="ASUS_F1400EA-EB1837W">
 										<img type="img" id="imgdispositivo" src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202211/03/00115215588540____7__640x640.jpg" alt="ASUS_F1400EA-EB1837W"/><br/>
-										ASUS F1400EA-EB1837W - <span><i>[512GB, 8GB RAM, Intel i5-11ªGen]</i></span>
+										ASUS F1400EA-EB1837W <br/> <span><i>[512GB, 8GB RAM, Intel i5-11ªGen]</i></span>
 									</th>
 									<td hidden>
 									<label>
@@ -149,8 +155,8 @@
 									</label>
 									</td>
 									<td>
-										<span><b>El Corte Inglés:</b></span>
-										<span> - <a href=https://www.elcorteingles.es/electronica/A44219714-portatil-asus-f1400ea-eb1837w-i5-8gb-512gb-ssd-14-w11/?parentCategoryId=999.13340219013&color=Negro target="_blank" rel="noopener noreferrer">499 €</a></span><br/>
+										<span><b>El Corte Inglés:</b></span><br/>
+										<span><a href=https://www.elcorteingles.es/electronica/A44219714-portatil-asus-f1400ea-eb1837w-i5-8gb-512gb-ssd-14-w11/?parentCategoryId=999.13340219013&color=Negro target="_blank" rel="noopener noreferrer">499 €</a></span><br/>
 										<hr style="border: 1px dashed"/>
                                         <span>*Recomendado #Top1*</span>
 									</td>
@@ -158,7 +164,7 @@
                                 <tr id="ASUS-Vivobook-Go-15_E1504FA-BQ204W">
 									<th id="ASUS-Vivobook-Go-15_E1504FA-BQ204W">
 										<img type="img" id="imgdispositivo" src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202302/28/00115215590801____1__640x640.jpg" alt="ASUS-Vivobook-Go-15_E1504FA-BQ204W"/><br/>
-										ASUS Vivobook Go 15 E1504FA-BQ204W - <span><i>[512GB, 8GB RAM, AMD Ryzen 5 - 7ªGen]</i></span>
+										ASUS Vivobook Go 15 E1504FA-BQ204W <br/> <span><i>[512GB, 8GB RAM, AMD Ryzen 5 - 7ªGen]</i></span>
 									</th>
 									<td hidden>
 									<label>
@@ -166,15 +172,15 @@
 									</label>
 									</td>
 									<td>
-										<span><b>El Corte Inglés:</b></span>
-										<span> - <a href=https://www.elcorteingles.es/electronica/A46492607-portatil-asus-vivobook-go-15-e1504fa-bq204w-ryzen-5-8gb-512gb-ssd-156-w11s/?parentCategoryId=999.13340219013&color=Negro target="_blank" rel="noopener noreferrer">479 €</a></span><br/>
-										<hr style="border: 1px dashed"/>
+										<span><b>El Corte Inglés:</b></span><br/>
+										<span><a href=https://www.elcorteingles.es/electronica/A46492607-portatil-asus-vivobook-go-15-e1504fa-bq204w-ryzen-5-8gb-512gb-ssd-156-w11s/?parentCategoryId=999.13340219013&color=Negro target="_blank" rel="noopener noreferrer">479 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
 									</td>
 								</tr>
                                 <tr hidden id="MARCA">
 									<th id="MARCA">
 										<img type="img" id="imgdispositivo" src="http" alt="descripcionIMG"/><br/>
-										marca - <span><i>[XXXGB, XGB RAM, SOC AX-YYªGen]</i></span>
+										marca <br/> <span><i>[XXXGB, XGB RAM, SOC AX-YYªGen]</i></span>
 									</th>
 									<td hidden>
 									<label>
@@ -184,20 +190,185 @@
 									<td>
 										<span><b>Tienda1:</b></span>
 										<span> - <a href=https target="_blank" rel="noopener noreferrer">XXX €</a></span><br/>
-										<hr style="border: 1px dashed"/>
+										<hr hidden style="border: 1px dashed"/>
 									</td>
 								</tr>
 							</tbody>
 						</table>
-						<!--
+						
 						<br/>
-						<hr hidden ="border: 2px dashed"/>
+						<hr  style="border: 2px dashed"/>
 						<br/>
-						<br/>
-						-->
+						<h5 style="text-align: center;">Ordenadores Mac de Apple </h5>
+						<table id="mac" class="productos">
+							<thead>
+								<tr>
+									<th>Nombre del producto</th>
+									<th hidden>Colores</th>
+									<th>Precio (€)</th>
+								</tr>
+							</thead>
+							<tfoot hidden>
+								<tr>
+									<th>Nombre del producto</th>
+									<th hidden>Colores</th>
+									<th>Precio (€)</th>
+								</tr>
+							</tfoot>
+							<tbody class="productos">
+								<tr id="Apple-MacBook-Air-13_chip-M1">
+									<th id="Apple-MacBook-Air-13_chip-M1">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1664472289661" alt="Apple-MacBook-Air-13_chip-M1 Gris Espacial"/><br/>
+										Apple MacBook Air de 13" <br/> <span><i>[modelo base de 256GB, 8GB RAM, Chip M1]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span>13 pulgadas - <a href="https://www.apple.com/es/shop/buy-mac/macbook-air/13-pulgadas-m1" target="_blank" rel="noopener noreferrer">1.218,85 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+								<tr id="Apple-MacBook-Air-13">
+									<th id="Apple-MacBook-Air-13">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-silver-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303678" alt="Apple-MacBook-Air-13"/><br/>
+										Apple MacBook Air de 13" y 15" <br/> <span><i>[modelo base de 256GB, 8GB RAM, Chip M2]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span>13 pulgadas - <a href="https://www.apple.com/es/shop/buy-mac/macbook-air/13-pulgadas-m2" target="_blank" rel="noopener noreferrer">1.298,85 €</a></span><br/>
+										<hr style="border: 1px dashed"/>
+										<span>15 pulgadas - <a href="https://www.apple.com/es/shop/buy-mac/macbook-air/15-pulgadas-m2" target="_blank" rel="noopener noreferrer">1.598,85 €</a></span><br/>
+									</td>
+								</tr>				
+								<tr id="Apple-MacBook-Pro-13_TouchBar">
+									<th id="Apple-MacBook-Pro-13_TouchBar">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-spacegray-select-202206_GEO_ES?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1664497359390" alt="Apple-MacBook-Pro-13_TouchBar Gris Espacial"/><br/>
+										Apple MacBook Pro de 13" <br/> <span><i>[modelo base de 256GB, 8GB RAM, Chip M2]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span>13 pulgadas - <a href="https://www.apple.com/es/shop/buy-mac/macbook-pro/13-pulgadas" target="_blank" rel="noopener noreferrer">1.618,85 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+								<tr id="Apple-MacBook-Pro-14">
+									<th id="Apple-MacBook-Pro-14">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1671304673229" alt="Apple-MacBook-Pro-14"/><br/>
+										Apple MacBook Pro de 14" y 16" <br/> <span><i>[modelo base de 512GB, 16GB RAM, Chip M2 Pro]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span>14 pulgadas - <a href="https://www.apple.com/es/shop/buy-mac/macbook-pro/14-pulgadas" target="_blank" rel="noopener noreferrer">2.448,85 €</a></span><br/>
+										<hr style="border: 1px dashed"/>
+										<span>16 pulgadas - <a href="https://www.apple.com/es/shop/buy-mac/macbook-pro/16-pulgadas" target="_blank" rel="noopener noreferrer">3.048,85 €</a></span><br/>
+									</td>
+								</tr>
+								<tr id="Apple-iMac24-ChipM1">
+									<th id="Apple-iMac24-ChipM1">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-24-blue-selection-hero-202104?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1617492405000" alt="Apple-iMac24-ChipM1"/><br/>
+										Apple iMac 24" Chip M1 <br/> <span><i>[modelo base de 256GB, 8GB RAM, Chip M1]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span><a href="https://www.apple.com/es/shop/buy-mac/imac" target="_blank" rel="noopener noreferrer">1.568,85 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+								<tr id="Apple-Mac-mini">
+									<th id="Apple-Mac-mini">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-hero-202301?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1670038314708" alt="Apple-Mac-mini"/><br/>
+										Apple Mac Mini <br/> <span><i>[modelo base de 256GB, 8GB RAM, Chip M2]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span><a href="https://www.apple.com/es/shop/buy-mac/mac-mini" target="_blank" rel="noopener noreferrer">718,85 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+								<tr id="Apple-Mac-Studio">
+									<th id="Apple-Mac-Studio">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-studio-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1684345161143" alt="Apple-Mac-Studio"/><br/>
+										Apple Mac Studio  <br/> <span><i>[modelo base de 512GB, 32GB RAM, Chip M2 Pro]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span><a href="https://www.apple.com/es/shop/buy-mac/mac-studio" target="_blank" rel="noopener noreferrer">2.428,85 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+								<tr id="Apple-Mac-Pro">
+									<th id="Apple-Mac-Pro">
+										<img type="img" id="imgdispositivo" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-pro-tower-hero-cto?wid=298&hei=298&fmt=jpeg&qlt=95&.v=1684508267915" alt="Apple-Mac-Pro"/><br/>
+										Apple Mac Pro <br/> <span><i>[modelo base de 1TB, 64GB RAM, Chip M2 Ultra]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span><br/>
+										<span><a href="https://www.apple.com/es/shop/buy-mac/mac-pro/torre"" target="_blank" rel="noopener noreferrer">8.398,85 €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+
+								<tr hidden id="Apple">
+									<th id="Apple">
+										<img type="img" id="imgdispositivo" src="http" alt="descripcionIMG"/><br/>
+										Apple Mac <span><i>[XXXGB, XGB RAM, SOC]</i></span>
+									</th>
+									<td hidden>
+									<label>
+										<span> - <a href="nombreproducto.png" target="_blank"">color</a></span><br/><br/>
+									</label>
+									</td>
+									<td>
+										<span><b>Apple Store:</b></span>
+										<span><a href=https target="_blank" rel="noopener noreferrer">XXX €</a></span><br/>
+										<hr hidden style="border: 1px dashed"/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
 					</div>
 				</div>
-				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+				<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
 			</div>	
 			<!--fin contenido de pagina de pagina-->
 			<!--pie de pagina-->
