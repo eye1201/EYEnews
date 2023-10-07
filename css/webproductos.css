@@ -214,14 +214,14 @@ div.contentb {
     );
     background-color:#E6E6FA;
     margin: 0 auto;
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     font-size: 14px;
 }
 .detalle {
     background-color:#c5c5d8;
     margin: 0 auto;
-    padding: 12px;
+    padding: 8px;
 }
 .detalle i {
     font-size: 12px; 
