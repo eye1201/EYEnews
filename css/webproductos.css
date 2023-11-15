@@ -207,11 +207,14 @@ div.contentb {
 
 /* *indice y resumen* */
 #indice .summary {
+    /*
+    sin linea de color en el medio de detalles
     background: linear-gradient(180deg, 
         rgba(0,0,0,0) calc(50% - 1px), 
         rgb(243, 242, 242) calc(50%), 
         rgba(0,0,0,0) calc(50% + 5px)
     );
+    */
     background-color:#E6E6FA;
     margin: 0 auto;
     padding: 8px;
