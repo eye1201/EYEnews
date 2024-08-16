@@ -47,7 +47,7 @@
 			<br/>
 			<!--contenido de pagina de pagina-->
 			<div class="contentb">
-				<h1 id="titulo">El comparador de iPhone</h1>
+				<h1 id="titulo">El comparador de iPhone <sup onclick="window.open('#*', '_self')">*</sup></h1>
 				<p hidden class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
 				<div  id="indice">
 					<div class="summary">
@@ -55,7 +55,7 @@
 						<details >
 							<summary>
 								[Pulsa para desplegar] <br/>
-								<b style="text-decoration: underline; text-decoration-style: dotted;">Última actualización: 15/08/2024 22:45h CEST</b> 
+								<b style="text-decoration: underline; text-decoration-style: dotted;">Última actualización: 16/08/2024 07:54h CEST</b> 
 							</summary>
 							<div class="detalle">
 								<p>
@@ -72,7 +72,7 @@
 				<div id="seccionProductos">
 					<p hidden >No hay productos añadidos para comparar precios en este momento.</p>
 					<div class="tablaProductos">
-						<h4 id="AppleiPhoneTxt" style="text-align: center;">Apple iPhone</h4>
+						<h4 id="AppleiPhone" style="text-align: center;" onclick="window.open('#AppleiPhone', '_self')">Apple iPhone</h4>
 						<table  id="iPhone" class="productos">
 							<thead>
 								<tr>
@@ -90,7 +90,7 @@
 								<tr id="iPhone15Pro">
 									<th id="iPhone15Pro">
 										<img id="imgdispositivo" src="https://m.media-amazon.com/images/I/81Wwngkh2OL._AC_SL1500_.jpg" onclick="window.open(this.src, '_blank');" alt="iPhone15Pro"/><br/>
-										<span>iPhone 15 Pro</span><br/>
+										<span><a href="#iPhone15Pro" style="color: black; text-decoration: unset;">iPhone 15 Pro</a></span><br/>
 										<hr style="border: 1px dashed"/>
 										<span><a href="https://m.media-amazon.com/images/I/71jqs5wUgxL._AC_SL1500_.jpg" target="_blank" rel="noopener noreferrer"><i>Colores iPhone 15 Pro</i></a></span><br/>
 										<hr style="border: 1px dashed"/>
@@ -120,7 +120,7 @@
 								<tr id="iPhone15">
 									<th id="iPhone15">
 										<img id="imgdispositivo" src="https://m.media-amazon.com/images/I/71vKy5OHuPL._AC_SL1500_.jpg" onclick="window.open(this.src, '_blank');" alt="iPhone15"/><br/>
-										<span>iPhone 15</span><br/>
+										<span><a href="#iPhone15" style="color: black; text-decoration: unset;">iPhone 15</a></span><br/>
 										<hr style="border: 1px dashed"/>
 										<span><a href="https://m.media-amazon.com/images/I/61BZXUiGzaL._AC_SL1500_.jpg" target="_blank" rel="noopener noreferrer"><i>Colores iPhone 15</i></a></span><br/>
 										<hr style="border: 1px dashed"/>
@@ -148,9 +148,9 @@
 									</td>
 								</tr>
 								<tr id="iPhone14">
-									<th id="nombreproducto">
+									<th id="iPhone14">
 										<img id="imgdispositivo" src="https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SL1500_.jpg" onclick="window.open(this.src, '_blank');" alt="iPhone14"/><br/>
-										<span>iPhone 14</span><br/>
+										<span><a href="#iPhone14" style="color: black; text-decoration: unset;">iPhone 14</a></span><br/>
 										<hr style="border: 1px dashed"/>
 										<span><a href="https://m.media-amazon.com/images/I/71nfZmgZkhL._AC_SL1500_.jpg" target="_blank" rel="noopener noreferrer"><i>Colores iPhone 14</i></a></span><br/>
 										<hr style="border: 1px dashed"/>
@@ -196,9 +196,9 @@
 									</td>
 								</tr>
 								<tr id="iPhone13">
-									<th id="nombreproducto">
+									<th id="iPhone13">
 										<img id="imgdispositivo" src="https://m.media-amazon.com/images/I/71iIaQjJunL._AC_SL1500_.jpg" onclick="window.open(this.src, '_blank');" alt="iPhone13"/><br/>
-										<span>iPhone 13</span><br/>
+										<span><a href="#iPhone13" style="color: black; text-decoration: unset;">iPhone 13</a></span><br/>
 										<hr style="border: 1px dashed"/>
 										<span><a href="https://m.media-amazon.com/images/I/71AormTzRHL._AC_SL1500_.jpg" target="_blank" rel="noopener noreferrer"><i>Colores iPhone 13</i></a></span><br/>
 										<hr style="border: 1px dashed"/>
@@ -528,12 +528,12 @@
 						</table>
 						<br hidden />
 						<div  id="AppleCare_webApple" class="productos" >
-							<h4 style="text-align: center;">Apple Care para iPhone</h4>
+							<h4 style="text-align: center;" onclick="window.open('#AppleCare_webApple', '_self')">Apple Care para iPhone</h4>
 							<p >¿No ha cargado aún? - La sección que estabas buscando no está disponible aquí.</p>
 							<p><a href="https://www.apple.com/es/support/products/iphone/" target="_blank" rel="noopener noreferrer" title="Apple Care">Pulsa aquí para informarte sobre Apple Care.</a></p>
 						</div>
 						<div  id="AppleRefurbished_webApple" class="productos" >
-							<h4 style="text-align: center;">Apple iPhone - Reacondicionados</h4>
+							<h4 style="text-align: center;" onclick="window.open('#AppleRefurbished_webApple', '_self')">Apple iPhone - Reacondicionados</h4>
 							<p >
 								<span>¿Búscas un iPhone más barato? Los reacondicionados de Apple son tu mejor opción.</span><br/>
 								<span>- Los reacondicionados de Apple son productos revisados con piezas nuevas y originales.</span><br/>
@@ -543,7 +543,12 @@
 						</div>
 					</div>
 				</div>
+				<br/>
+				<p id="*"><i><sup>*</sup>Los iPhone son teléfonos de gama alta y gama alta premium (modelo pro max).</i></p>
+				<p id="**"><i><sup>**</sup>Los Android tienen distintas gamas, desde la gama baja hasta la gama alta premium.</i></p>
 				<p class="printPageButton"><button  onclick="window.print();"> Imprimir 🖨️ página 📝 </button></p>
+				<br/>
+				<a href='#' class="stt" title="scroll to top"></a>
 			</div>	
 			<!--fin contenido de pagina de pagina-->
 			<!--pie de pagina-->
